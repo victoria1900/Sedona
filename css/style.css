@@ -1,0 +1,190 @@
+@font-face {
+    font-family: "PTSans";
+    src: url("../fonts/PTSans-Bold.woff2") format("woff2"), url("../fonts/PTSans-Bold.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "PTSans";
+    src: url("../fonts/PTSans-Regular.woff2") format("woff2"), url("../fonts/PTSans-Regular.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+.container {
+    width: 320px;
+    margin: 0 auto;
+}
+
+.header-wraper {
+    background-color: #81b3d2;
+}
+
+.header-nav-list {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header-nav-link,
+.header-nav-pictures,
+.header-nav-form,
+.header-nav-academy {
+    font-family: PTSans;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.22;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.header-nav-button {
+    background-image: url(../img/close.svg);
+    width: 22px;
+    height: 22px;
+    background-color: transparent;
+    border: none;
+    margin-left: 79px;
+}
+
+.header-nav-item-first,
+.header-nav-item-second,
+.header-nav-item-third,
+.header-nav-item-fifth {
+    box-shadow: 0px 1px 0 0 rgb(1 1 1 / 20%), inset 0px 1px 0 0 rgb(255 255 255 / 20%);
+    background-color: var(--light-grey-blue);
+}
+
+.header-nav-item-first {
+    padding-bottom: 6px;
+}
+
+.header-nav-element {
+    padding-left: 123px;
+    padding-top: 10px;
+}
+
+.header-nav-item-second {
+    padding-top: 10px;
+    padding-left: 3px;
+    padding-bottom: 7px;
+}
+
+.header-nav-pictures {
+    padding-left: 94px;
+}
+
+.header-nav-item-third {
+    padding-top: 9px;
+    padding-bottom: 8px;
+}
+
+.header-nav-form {
+    padding-left: 93px;
+}
+
+.header-nav-item-fifth {
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+.header-nav-academy {
+    padding-left: 95px;
+}
+
+.header-nav-wraper-button {
+    position: relative;
+    width: 23px;
+    height: 21px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+.header-nav-wraper-button::before {
+    content: '';
+    position: absolute;
+    background-image: url(../img/burger.svg);
+    width: 23px;
+    height: 21px;
+    top: 0px;
+    left: 0px;
+}
+
+.header-nav-wraper-link {
+    position: relative;
+}
+
+.header-nav-wraper-link::before {
+    content: '';
+    position: absolute;
+    background-image: url(../img/logo-mobile.svg);
+    width: 102px;
+    height: 83px;
+    top: 0px;
+    left: 0px;
+}
+
+.header-nav-wraper {
+    display: flex;
+}
+
+.header-nav-wraper-item {
+    padding-left: 109px;
+    padding-right: 66px;
+}
+
+.header-nav-wraper-item-first {
+    padding-left: 101px;
+    padding-top: 12px;
+}
+
+.section-welcome {
+    height: 389px;
+    margin-top: 17px;
+    position: relative;
+    height: 389px;
+}
+
+.section-welcome::before {
+    content: '';
+    position: absolute;
+    background-image: url(../img/welcome-mobile.png);
+    width: 281px;
+    height: 214px;
+    top: 90px;
+    left: 20px;
+}
+
+.section-welcome::after {
+    content: '';
+    position: absolute;
+    background-image: url(../img/triangle-mobile.svg);
+    width: 320px;
+    height: 26px;
+    top: 364px;
+    left: 0px;
+}
+
+.section-main {
+    background-image: url(../img/back-mobile.png);
+    width: 100%;
+    height: 389px;
+    background-repeat: no-repeat;
+}
+
+.nav-closed {
+    display: none;
+}
+
+.nav-opened {
+    display: block;
+}
