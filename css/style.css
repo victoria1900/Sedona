@@ -1537,4 +1537,7 @@
     .footer-developers__svg:focus {
         fill: #000;
     }
+    .body{
+        overflow-x:hidden;
+    }
 }
