@@ -833,9 +833,9 @@
     }
 
     .description-wraper-item-second__bridge-title {
-        padding-left: 317px;
+        padding-left: 98px;
         width: 150px;
-        padding-top: 41px;
+        padding-top: 51px;
         margin: 0px;
     }
 
@@ -843,7 +843,7 @@
         padding-top: 42px;
         width: 210px;
         margin: 0px;
-        padding-left: 268px;
+        padding-left: 130px;
     }
 
     .description-wraper-item__subtitle,
@@ -860,13 +860,13 @@
 
     .description-wraper-item-second__bridge-text {
         margin: 0px;
-        padding-top: 24px;
-        width: 194px;
-        padding-left: 294px;
+        padding-top: 22px;
+        width: 214px;
+        padding-left: 64px;
     }
 
     .description-wraper-item__subtitle {
-        padding-left: 290px;
+        padding-left: 157px;
         width: 168px;
         padding-top: 8px;
     }
@@ -875,7 +875,6 @@
     .description-wraper-item-second__bridge-number {
         font-family: PTSans;
         letter-spacing: normal;
-        text-align: center;
         color: #ffffff;
         font-size: 14px;
         font-weight: 500;
@@ -891,13 +890,13 @@
     .description-wraper-item-second__bridge-number {
         margin: 0px;
         padding-top: 7px;
-        padding-left: 13px;
+        padding-left: 140px;
     }
 
     .description-wraper-item__number {
         margin: 0px;
         padding-top: 8px;
-        padding-left: 270px;
+        padding-left: 210px;
     }
 
     .description-wraper-item-first__title,
@@ -1247,7 +1246,7 @@
     }
 
     .section-main {
-        background-image: url(../img/back-desktop.png);
+        background-image: url(../img/back-tablet.png);
         width: 100%;
         height: 518px;
         background-repeat: no-repeat;
@@ -1537,7 +1536,289 @@
     .footer-developers__svg:focus {
         fill: #000;
     }
-    .body{
-        overflow-x:hidden;
+
+    .footer {
+        padding-bottom: 29px;
     }
+
+    .body {
+        overflow-x: hidden;
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        width: 1200px;
+        margin: 0 auto;
+    }
+
+    .section-main {
+        background-image: url(../img/back-desktop.png);
+        width: 100%;
+        height: 518px;
+        background-repeat: no-repeat;
+        margin-top: 15px;
+    }
+
+    .header-nav-item-first {
+        padding-right: 116px;
+    }
+
+    .header-nav-list {
+        padding-left: 88px;
+    }
+
+    .header-nav-item-second {
+        padding-left: 45px;
+        padding-right: 137px;
+    }
+
+    .header-nav-item-third {
+        padding-left: 246px;
+    }
+
+    .header-nav-item-fourth {
+        padding-left: 117px;
+    }
+
+    .header-nav-wraper-link {
+        position: relative;
+    }
+
+    .header-nav-wraper-link::before {
+        content: '';
+        position: absolute;
+        background-image: url(../img/logo-desktop.png);
+        width: 188px;
+        height: 96px;
+        top: -40px;
+        left: 502px;
+    }
+
+    .section-welcome {
+        position: relative;
+    }
+
+    .section-welcome::before {
+        content: '';
+        position: absolute;
+        background-image: url(../img/welcome-dekstop.png);
+        top: 79px;
+        left: 367px;
+    }
+
+    .section-welcome::after {
+        content: '';
+        position: absolute;
+        background-image: url(../img/intro-triangle-dekstop.svg);
+        width: 1200px;
+        height: 57px;
+        top: 462px;
+        left: -2px;
+    }
+
+    .description-city-title {
+        padding-left: 356px;
+    }
+
+    .description-wraper-item-first__house {
+        padding-left: 22px;
+    }
+
+    .description-wraper-item-first__house-text {
+        width: 263px;
+    }
+
+    .description-wraper-item-first__food-text {
+        width: 289px;
+    }
+
+    .description-wraper-item-first__food-second {
+        padding-left: 29px;
+    }
+
+    .description-wraper-item__title {
+        padding-left: 124px;
+        padding-top: 49px;
+    }
+
+    .description-wraper-item__number {
+        padding-top: 8px;
+        padding-left: 204px;
+    }
+
+    .description-wraper-item__subtitle {
+        width: 271px;
+        padding-top: 8px;
+        padding-right: 42px;
+        padding-left: 94px;
+    }
+
+    .description-wraper-item-first__gifts-title {
+        padding-left: 152px;
+    }
+
+    .description-wraper-item-first__gifts-text {
+        padding-left: 167px;
+        width: 192px;
+    }
+
+    .description-wraper-item-first__house::before {
+        content: '';
+        position: absolute;
+        background-image: url(../img/house.svg);
+        width: 75px;
+        height: 72px;
+        top: -75px;
+        left: 159px;
+    }
+
+
+    .description-wraper-item-first__food-second::before {
+        content: '';
+        position: absolute;
+        background-image: url(../img/food.svg);
+        width: 74px;
+        height: 67px;
+        top: -72px;
+        left: 231px;
+    }
+
+    .description-wraper-item-first__gifts::before {
+        content: '';
+        position: absolute;
+        background-image: url(../img/gift.svg);
+        width: 64px;
+        height: 75px;
+        top: -78px;
+        left: 223px;
+    }
+
+    .description-wraper-item-first__element {
+        padding-top: 134px;
+    }
+
+    .description-wraper-item-second__bridge-title {
+        padding-left: 113px;
+        width: 150px;
+        padding-top: 51px;
+        margin: 0px;
+    }
+
+    .description-wraper-item-second__bridge-number {
+        margin: 0px;
+        padding-top: 7px;
+        padding-left: 162px;
+    }
+
+    .description-wraper-item-second__bridge-text {
+        margin: 0px;
+        padding-top: 22px;
+        width: 214px;
+        padding-left: 80px;
+    }
+
+    .description-wraper-item-second__wraper {
+        padding-top: 21px;
+    }
+
+    .description-wraper-item-third {
+        padding-left: 50px;
+    }
+
+    .description-wraper-item-third__title {
+        width: 200px;
+        margin: 0px;
+        padding-top: 20px;
+        padding-left: 47px;
+    }
+
+    .description-wraper-item-third__number {
+        width: 200px;
+        margin: 0px;
+        padding-top: 6px;
+        padding-left: 46px;
+    }
+
+    .description-wraper-item-third__number-text {
+        width: 290px;
+        margin: 0px;
+        padding-top: 21px;
+    }
+
+    .description-wraper-item-fourth {
+        padding-left: 66px;
+    }
+
+    .description-wraper-item-fourth__title {
+        padding-left: 89px;
+    }
+
+    .description-wraper-item-fourth__number {
+        padding-left: 78px;
+    }
+
+    .description-wraper-item-fourth__number-text {
+        width: 276px;
+        padding-left: 37px;
+    }
+
+    .description-wraper-item-fifth {
+        padding-left: 107px;
+    }
+
+    .description-wraper-item-fifth__title {
+        padding-left: 78px;
+    }
+
+    .description-wraper-item-fifth__number {
+        padding-left: 58px;
+    }
+
+    .description-wraper-item-fifth__number-text {
+        padding-left: 24px;
+        width: 265px;
+    }
+
+    .description-wraper-items {
+        padding-bottom: 65px;
+    }
+
+    .hostel-wraper {
+        padding-left: 244px;
+        padding-top: 48px;
+    }
+
+    .hostel-wraper__title {
+        padding-left: 235px;
+    }
+
+    .hostel-wraper__text {
+        padding-bottom: 65px;
+    }
+
+    .footer-wraper {
+        padding-top: 81px;
+    }
+
+    .footer-visit {
+        padding-left: 117px;
+    }
+
+    .footer-socials__list {
+        padding-left: 270px;
+    }
+
+    .footer-developers {
+        padding-left: 277px;
+    }
+
+    .footer-developers__block {
+        padding-top: 2px;
+    }
+
+    .footer {
+        padding-bottom: 29px;
+    }
+
 }
